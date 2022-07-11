@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.873">
+    <testcase classname="User should not login with invalid e-mail and password" name="User tries to login with invalid email and password" time="14.396">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given User goes to ravenpack url mainpage...................................passed
+And User validates that he has entered the home page........................failed
+And User clicks to the request a Trial button...............................skipped
+And User enters name to full name box.......................................skipped
+And User enters email to email box..........................................skipped
+And User selects how he heard about Raven Pack..............................skipped
+And User cliks terms and conditions checkbox................................skipped
+Then User cliks keep me updated checkbox....................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepdefinitions.requestaTrialStepDefinition.userValidatesThatHeHasEnteredTheHomePage(requestaTrialStepDefinition.java:24)
+	at ✽.User validates that he has entered the home page(file:///C:/Users/Mehmet/IdeaProjects/ravenpack/src/test/resources/features/requestaTrial.feature:6)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
